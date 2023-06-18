@@ -14,16 +14,16 @@ public class ClienteEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column(name = "nome")
+    @Column(name = "nome", nullable = false)
     private String nome;
 
-    @Column(name = "email")
+    @Column(name = "email", nullable = false)
     private String email;
 
     @Column(name = "telefone")
     private String telefone;
 
-    @Column(name = "cpf")
+    @Column(name = "cpf", nullable = false)
     private String cpf;
 
     @Column(name = "data_nascimento")

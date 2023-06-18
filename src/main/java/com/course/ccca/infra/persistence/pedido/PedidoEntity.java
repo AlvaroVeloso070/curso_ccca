@@ -17,16 +17,16 @@ public class PedidoEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column(name = "data_pedido")
+    @Column(name = "data_pedido", nullable = false)
     private Date dataPedido;
 
-    @Column(name = "valor_bruto")
+    @Column(name = "valor_bruto", nullable = false)
     private Double valorBruto;
 
-    @Column(name = "valor_liquido")
+    @Column(name = "valor_liquido", nullable = false)
     private Double valorLiquido;
 
-    @Column(name = "valor_frete")
+    @Column(name = "valor_frete", nullable = false)
     private Double valorFrete;
 
     @OneToMany(mappedBy = "PEDIDO", cascade = CascadeType.ALL)

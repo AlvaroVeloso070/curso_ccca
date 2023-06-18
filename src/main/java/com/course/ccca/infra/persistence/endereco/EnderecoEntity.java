@@ -40,7 +40,7 @@ public class EnderecoEntity {
     private String complemento;
 
     @OneToOne
-    @JoinColumn(name = "id_cliente")
+    @JoinColumn(name = "id_cliente", nullable = false)
     private ClienteEntity cliente;
 
     public EnderecoEntity() {}

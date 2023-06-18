@@ -11,13 +11,13 @@ public class ProdutoEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column(name = "nome")
+    @Column(name = "nome", nullable = false)
     private String nome;
 
-    @Column(name = "descricao")
+    @Column(name = "descricao", nullable = false)
     private String descricao;
 
-    @Column(name = "valor")
+    @Column(name = "valor", nullable = false)
     private Double valor;
 
     public ProdutoEntity() {}
