@@ -24,6 +24,4 @@ public class ItemPedidoEntity {
     @ManyToOne
     @JoinColumn(name = "id_pedido", nullable = false)
     private PedidoEntity pedido;
-
-    public ItemPedidoEntity() {}
 }

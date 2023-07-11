@@ -42,6 +42,4 @@ public class EnderecoEntity {
     @OneToOne
     @JoinColumn(name = "id_cliente", nullable = false)
     private ClienteEntity cliente;
-
-    public EnderecoEntity() {}
 }

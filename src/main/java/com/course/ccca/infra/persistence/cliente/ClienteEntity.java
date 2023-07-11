@@ -34,8 +34,6 @@ public class ClienteEntity {
 
     @Column(name = "data_cadastro")
     private Date dataCadastro;
-
-    public ClienteEntity() {}
 }
 
 

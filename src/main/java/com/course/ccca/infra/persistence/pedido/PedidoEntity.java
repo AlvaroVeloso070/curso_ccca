@@ -39,6 +39,4 @@ public class PedidoEntity {
     @OneToOne
     @JoinColumn(name = "id_cliente")
     private ClienteEntity cliente;
-
-    public PedidoEntity() {}
 }

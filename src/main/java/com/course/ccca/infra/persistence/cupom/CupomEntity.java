@@ -33,6 +33,4 @@ public class CupomEntity {
 
     @Column(name = "cupom_expirado", nullable = false)
     private Boolean isCupomExpirado;
-
-    public CupomEntity() {}
 }

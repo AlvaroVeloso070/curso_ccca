@@ -19,6 +19,4 @@ public class ProdutoEntity {
 
     @Column(name = "valor", nullable = false)
     private Double valor;
-
-    public ProdutoEntity() {}
 }
